@@ -1,35 +1,33 @@
 ---
 layout: page
-permalink: /about/
-title: vajradog
-tags: [vajradog]
+permalink: /about-site/
+title: About this site
+description: ""
 image:
-  feature: abstract-5.jpg
+  feature: abstract-11.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 share: true
 ---
 
-The sourcecode for this website along with my other projects can be downloaded [from Github](http://github.com/vajradog).
+## What is this website?
 
-They say three times the charm, so here is another free responsive Jekyll theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. If you've used my previous themes most of this should be familiar territory...
+thusiheard.com is a collection of Tibetan beliefs, superstitions and sayings. Many of posts published here are from published works, which in-turn are from oral sources. Eventhough Tibetans do not necessarily believe or follow these beliefs, superstitions and sayings nowadays, however they continue to play role in the day to day lives.
 
-## What HPSTR brings to the table:
+Eventhough it is fun and amusing to read these age old sayings, however to follow them or not is completely upto you. 
 
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrads in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Modern and minimal design.
-* Sweet animated menu.
-* Background image support.
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Comments powered by [Disqus](http://disqus.com) if you choose to enable.
-* Simple and clear permalink structure[^1].
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* Simple [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy
-* [Grunt](http://gruntjs.com) build script for easy theme development
+## Tell me the tech part of this website.
+This website was developed with love by [@vajradog](https://www.facebook.com/vajradog), a Tibetan web developer living in New York. 
 
-<div markdown="0"><a href="{{ site.url }}/theme-setup" class="btn btn-info">Install the Theme</a></div>
+This site is powered by [Jekyll](http://jekyllrb.com/), using the [HPSTR Theme](http://mademistakes.com/) and is hosted at Github. It is completely responsive, degrades gracefully in older browsers, has minimal design, supports [Disqus](http://disqus.com/), [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) and has a simple permalink structure.
 
-[^1]: Example: *domain.com/category-name/post-title*
+1. Jekyll
+2. Adobe Photoshop
+3. Sublime Text 3
+4. LESS
+5. jQuery
+6. Github 
+7. Mac Terminal
+
+<div markdown="0"><a href="https://github.com/vajradog/thusiheard" class="btn">Show me the code for this site</a></div>
+

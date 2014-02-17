@@ -36,9 +36,7 @@ bing_verify:
 links:
   - title: About this site
     url: /about-site
-  - title: External Link
-    url: http://mademistakes.com
-    external: true
+
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
