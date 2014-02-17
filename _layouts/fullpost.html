@@ -22,11 +22,11 @@
 <div style="clear: both;">
 <p class="alignleft">
       {% if page.previous %} 
-        <a rel="prev" href="{{ page.previous.url }}" class="btn btn-success">&larr; Previous</a>
+        <a rel="prev" href="{{ site.url }}/page{{ previous_page }}" class="btn btn-success">&larr; Previous</a>
     {% endif %}</p>
 <p class="alignright">
     {% if page.next %} 
-        <a rel="next" href="{{ page.next.url }}" class="btn btn-success" align="right">Next &rarr;</a>
+        <a rel="next" href="{{ site.url }}/page{{ next_page }}"  class="btn btn-success" align="right">Next &rarr;</a>
     {% endif %}</p></div><br><br><br>
       {{ content }} 
 
