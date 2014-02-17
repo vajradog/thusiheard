@@ -1,0 +1,32 @@
+---
+layout: fullpost
+---
+
+<html>
+	<head>
+		<script>
+			var posts = [];
+			{% for post in site.posts %}
+			posts.push("{{ post.url }}");
+			{% endfor %}  
+
+			document.write("<meta http-equiv=\"refresh\" content=\"1;url=");
+			document.write(posts[Math.floor(Math.random() * posts.length)]);
+			document.write("\">");
+		</script>
+	</head>
+
+<article class="hentry">
+ 
+  <p>Redirecting to a 
+		<script>
+			document.write("<a href=\"");
+				document.write(posts[Math.floor(Math.random() * posts.length)]);
+				document.write("\">random post</a>...");
+		</script></p>
+
+</article>
+
+
+	
+</html>

@@ -1,0 +1,82 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include fullhead.html %}
+</head>
+
+<body id="post">
+
+{% include browser-upgrade.html %}
+{% include navigation.html %}
+
+<div id="main" role="main">
+
+
+  <article class="hentry">
+
+    <div class="entry-content">
+ 
+<div style="clear: both;">
+<p class="alignleft">
+      {% if page.previous %} 
+        <a rel="prev" href="{{ page.previous.url }}" class="btn btn-success">&larr; Previous</a>
+    {% endif %}</p>
+<p class="alignright">
+    {% if page.next %} 
+        <a rel="next" href="{{ page.next.url }}" class="btn btn-success" align="right">Next &rarr;</a>
+    {% endif %}</p></div><br><br><br>
+      {{ content }} 
+
+      <footer class="entry-meta">      
+        {% if page.share %}<div class="social-share">
+        <small>Note: Tibetans do not necessarily believe in these sayings, they are presented here for your amusement and entertainment.</small>
+          <ul class="socialcount socialcount-small inline-list">
+            <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook"><span class="count"><i class="icon-facebook-sign"></i> Like</span></a></li>
+            <li class="twitter"><a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" title="Share on Twitter"><span class="count"><i class="icon-twitter-sign"></i> Tweet</span></a></li>
+            <li class="googleplus"><a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus"><span class="count"><i class="icon-google-plus-sign"></i> +1</span></a></li>
+          </ul>
+        </div><!-- /.social-share -->{% endif %}
+      </footer>
+    </div><!-- /.entry-content -->
+
+    {% if site.disqus_shortname and page.comments %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
+
+    {% if site.related_posts.size %}
+    <div class="read-more">
+      {% for post in site.related_posts limit:1 %}
+        <div class="read-more-header">
+          <a href="{{ site.url }}{{ page.previous.url }}" class="read-more-btn">Read More</a>
+        </div><!-- /.read-more-header -->
+        <div class="read-more-content">
+          <h3><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+          <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 140 }}&hellip;{% endif %} <a href="{{ site.url }}{{ post.url }}">Continue reading</a></p>
+        </div><!-- /.read-more-content -->
+      {% endfor %}
+
+
+      <div class="read-more-list">
+        {% for post in site.related_posts limit:2 offset:1 %}
+          <div class="list-item">
+            <h4><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h4>
+            <span>Published on {{ post.date | date: "%B %d, %Y" }}</span>
+          </div><!-- /.list-item -->
+        {% endfor %}
+      </div><!-- /.read-more-list -->
+      {% endif %}
+    </div><!-- /.read-more -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    {% include footer.html %}
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+{% include scripts.html %}	        
+
+</body>
+</html>
