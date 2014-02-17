@@ -7,7 +7,7 @@ layout: fullpost
 		<script>
 			var posts = [];
 			{% for post in site.posts %}
-			posts.push("{{ post.url }}");
+			posts.push("{{ site.url }}{{ post.url }}");
 			{% endfor %}  
 
 			document.write("<meta http-equiv=\"refresh\" content=\"1;url=");
