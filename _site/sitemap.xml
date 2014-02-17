@@ -1,80 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://localhost:4000</loc>
+        <loc>http://vajradog.github.io/thusiheard</loc>
     </url>
     
     
     <url>
-        <loc>http://localhost:4000/soot/</loc>
+        <loc>http://vajradog.github.io/thusiheard/soot/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/smiling-baby/</loc>
+        <loc>http://vajradog.github.io/thusiheard/smiling-baby/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/godon/</loc>
+        <loc>http://vajradog.github.io/thusiheard/godon/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/giving-birth/</loc>
+        <loc>http://vajradog.github.io/thusiheard/giving-birth/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/girlchild/</loc>
+        <loc>http://vajradog.github.io/thusiheard/girlchild/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/father-at-birth/</loc>
+        <loc>http://vajradog.github.io/thusiheard/father-at-birth/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/birth-hair/</loc>
+        <loc>http://vajradog.github.io/thusiheard/birth-hair/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/bangso/</loc>
+        <loc>http://vajradog.github.io/thusiheard/bangso/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/30th-baby/</loc>
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/background-image/</loc>
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/code-highlighting-post/</loc>
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/sample-link-post/</loc>
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/video-post/</loc>
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/readability-feature-post/</loc>
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/sample-post-images/</loc>
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/readability-post/</loc>
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/sample-post2/</loc>
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/sample-post/</loc>
+        <loc>http://vajradog.github.io/thusiheard/30th-baby/</loc>
     </url>
     
 </urlset>

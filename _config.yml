@@ -1,4 +1,4 @@
-title:            Thus have I heard
+title:            Thus I heard
 description:      A collection of Tibetan sayings, superstitions, and dream intepretations.
 disqus_shortname: thusiheard
 #Your site's domain goes here. Leave localhost server or blank when working locally.
@@ -6,7 +6,7 @@ url:              http://vajradog.github.io/thusiheard
 
 # Owner/author information
 owner:
-  name:           this is vajradog
+  name:           vajradog
   avatar:         avatar.jpg
   bio:            "vajradog is a Tibetan Web Developer living in New York. He does many things."
   email:          vajradog@gmail.com
